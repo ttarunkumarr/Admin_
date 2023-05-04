@@ -1,0 +1,73 @@
+  .Selector{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.lii{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+.lii button{
+  font-size: 18px;
+  background-color: #1d1d1d;
+  color: white;
+padding: 3px 20px;
+border-radius: 5px;
+margin: 10px 15px 0px 0px;
+}
+  .AddButton{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+padding: 3px 10px;
+border-radius: 5px;
+  }
+  .main-select{
+    padding: 50px 0px;
+    text-align: right;
+  }
+  .po{
+    display: flex;
+ justify-content: space-between;
+  }
+  .po label{
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 0px 5px;
+    font-weight: 600;
+  }
+.leela{
+  width: 300px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0px;
+}
+textarea{
+  width: 300px;
+  padding: 10px 10px;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+textarea:focus{
+  outline: none;
+}
+  @media screen and (max-width:426px){
+    .leela{
+      width: 150px;
+      font-size: 16px;
+    }
+    .po label{
+      font-size: 16px;
+      margin: 10px 0px;
+      font-weight: 600;
+    }
+  }
+  a img{
+    width: 30px;
+  }
+a img:hover{
+  opacity: 0.7;
+}
